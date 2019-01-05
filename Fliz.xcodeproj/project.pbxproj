@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F60EB0B21E1538000EE5527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB0A21E1538000EE5527 /* AppDelegate.swift */; };
+		4F60EB0D21E1538000EE5527 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB0C21E1538000EE5527 /* FirstViewController.swift */; };
+		4F60EB0F21E1538000EE5527 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB0E21E1538000EE5527 /* SecondViewController.swift */; };
+		4F60EB1221E1538000EE5527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F60EB1021E1538000EE5527 /* Main.storyboard */; };
+		4F60EB1421E1538100EE5527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F60EB1321E1538100EE5527 /* Assets.xcassets */; };
+		4F60EB1721E1538100EE5527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F60EB1521E1538100EE5527 /* LaunchScreen.storyboard */; };
+		4F60EB2221E1538100EE5527 /* FlizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB2121E1538100EE5527 /* FlizTests.swift */; };
+		4F60EB2D21E1538100EE5527 /* FlizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB2C21E1538100EE5527 /* FlizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F60EB1E21E1538100EE5527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F60EAFF21E1538000EE5527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F60EB0621E1538000EE5527;
+			remoteInfo = Fliz;
+		};
+		4F60EB2921E1538100EE5527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F60EAFF21E1538000EE5527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F60EB0621E1538000EE5527;
+			remoteInfo = Fliz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F60EB0721E1538000EE5527 /* Fliz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fliz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F60EB0A21E1538000EE5527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F60EB0C21E1538000EE5527 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4F60EB0E21E1538000EE5527 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4F60EB1121E1538000EE5527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F60EB1321E1538100EE5527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F60EB1621E1538100EE5527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F60EB1821E1538100EE5527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F60EB1D21E1538100EE5527 /* FlizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F60EB2121E1538100EE5527 /* FlizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlizTests.swift; sourceTree = "<group>"; };
+		4F60EB2321E1538100EE5527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F60EB2821E1538100EE5527 /* FlizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F60EB2C21E1538100EE5527 /* FlizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlizUITests.swift; sourceTree = "<group>"; };
+		4F60EB2E21E1538100EE5527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F60EB0421E1538000EE5527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F60EB1A21E1538100EE5527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F60EB2521E1538100EE5527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F60EAFE21E1538000EE5527 = {
+			isa = PBXGroup;
+			children = (
+				4F60EB0921E1538000EE5527 /* Fliz */,
+				4F60EB2021E1538100EE5527 /* FlizTests */,
+				4F60EB2B21E1538100EE5527 /* FlizUITests */,
+				4F60EB0821E1538000EE5527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F60EB0821E1538000EE5527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F60EB0721E1538000EE5527 /* Fliz.app */,
+				4F60EB1D21E1538100EE5527 /* FlizTests.xctest */,
+				4F60EB2821E1538100EE5527 /* FlizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F60EB0921E1538000EE5527 /* Fliz */ = {
+			isa = PBXGroup;
+			children = (
+				4F60EB0A21E1538000EE5527 /* AppDelegate.swift */,
+				4F60EB0C21E1538000EE5527 /* FirstViewController.swift */,
+				4F60EB0E21E1538000EE5527 /* SecondViewController.swift */,
+				4F60EB1021E1538000EE5527 /* Main.storyboard */,
+				4F60EB1321E1538100EE5527 /* Assets.xcassets */,
+				4F60EB1521E1538100EE5527 /* LaunchScreen.storyboard */,
+				4F60EB1821E1538100EE5527 /* Info.plist */,
+			);
+			path = Fliz;
+			sourceTree = "<group>";
+		};
+		4F60EB2021E1538100EE5527 /* FlizTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F60EB2121E1538100EE5527 /* FlizTests.swift */,
+				4F60EB2321E1538100EE5527 /* Info.plist */,
+			);
+			path = FlizTests;
+			sourceTree = "<group>";
+		};
+		4F60EB2B21E1538100EE5527 /* FlizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F60EB2C21E1538100EE5527 /* FlizUITests.swift */,
+				4F60EB2E21E1538100EE5527 /* Info.plist */,
+			);
+			path = FlizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F60EB0621E1538000EE5527 /* Fliz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F60EB3121E1538100EE5527 /* Build configuration list for PBXNativeTarget "Fliz" */;
+			buildPhases = (
+				4F60EB0321E1538000EE5527 /* Sources */,
+				4F60EB0421E1538000EE5527 /* Frameworks */,
+				4F60EB0521E1538000EE5527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fliz;
+			productName = Fliz;
+			productReference = 4F60EB0721E1538000EE5527 /* Fliz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F60EB1C21E1538100EE5527 /* FlizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F60EB3421E1538100EE5527 /* Build configuration list for PBXNativeTarget "FlizTests" */;
+			buildPhases = (
+				4F60EB1921E1538100EE5527 /* Sources */,
+				4F60EB1A21E1538100EE5527 /* Frameworks */,
+				4F60EB1B21E1538100EE5527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F60EB1F21E1538100EE5527 /* PBXTargetDependency */,
+			);
+			name = FlizTests;
+			productName = FlizTests;
+			productReference = 4F60EB1D21E1538100EE5527 /* FlizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F60EB2721E1538100EE5527 /* FlizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F60EB3721E1538100EE5527 /* Build configuration list for PBXNativeTarget "FlizUITests" */;
+			buildPhases = (
+				4F60EB2421E1538100EE5527 /* Sources */,
+				4F60EB2521E1538100EE5527 /* Frameworks */,
+				4F60EB2621E1538100EE5527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F60EB2A21E1538100EE5527 /* PBXTargetDependency */,
+			);
+			name = FlizUITests;
+			productName = FlizUITests;
+			productReference = 4F60EB2821E1538100EE5527 /* FlizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F60EAFF21E1538000EE5527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andy Jiang";
+				TargetAttributes = {
+					4F60EB0621E1538000EE5527 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4F60EB1C21E1538100EE5527 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4F60EB0621E1538000EE5527;
+					};
+					4F60EB2721E1538100EE5527 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4F60EB0621E1538000EE5527;
+					};
+				};
+			};
+			buildConfigurationList = 4F60EB0221E1538000EE5527 /* Build configuration list for PBXProject "Fliz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F60EAFE21E1538000EE5527;
+			productRefGroup = 4F60EB0821E1538000EE5527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F60EB0621E1538000EE5527 /* Fliz */,
+				4F60EB1C21E1538100EE5527 /* FlizTests */,
+				4F60EB2721E1538100EE5527 /* FlizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F60EB0521E1538000EE5527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F60EB1721E1538100EE5527 /* LaunchScreen.storyboard in Resources */,
+				4F60EB1421E1538100EE5527 /* Assets.xcassets in Resources */,
+				4F60EB1221E1538000EE5527 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F60EB1B21E1538100EE5527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F60EB2621E1538100EE5527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F60EB0321E1538000EE5527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F60EB0F21E1538000EE5527 /* SecondViewController.swift in Sources */,
+				4F60EB0B21E1538000EE5527 /* AppDelegate.swift in Sources */,
+				4F60EB0D21E1538000EE5527 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F60EB1921E1538100EE5527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F60EB2221E1538100EE5527 /* FlizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F60EB2421E1538100EE5527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F60EB2D21E1538100EE5527 /* FlizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F60EB1F21E1538100EE5527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F60EB0621E1538000EE5527 /* Fliz */;
+			targetProxy = 4F60EB1E21E1538100EE5527 /* PBXContainerItemProxy */;
+		};
+		4F60EB2A21E1538100EE5527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F60EB0621E1538000EE5527 /* Fliz */;
+			targetProxy = 4F60EB2921E1538100EE5527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F60EB1021E1538000EE5527 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F60EB1121E1538000EE5527 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F60EB1521E1538100EE5527 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F60EB1621E1538100EE5527 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F60EB2F21E1538100EE5527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F60EB3021E1538100EE5527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F60EB3221E1538100EE5527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG2KCF58H8;
+				INFOPLIST_FILE = Fliz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyjiang.Fliz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F60EB3321E1538100EE5527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG2KCF58H8;
+				INFOPLIST_FILE = Fliz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyjiang.Fliz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F60EB3521E1538100EE5527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG2KCF58H8;
+				INFOPLIST_FILE = FlizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyjiang.FlizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fliz.app/Fliz";
+			};
+			name = Debug;
+		};
+		4F60EB3621E1538100EE5527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG2KCF58H8;
+				INFOPLIST_FILE = FlizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyjiang.FlizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fliz.app/Fliz";
+			};
+			name = Release;
+		};
+		4F60EB3821E1538100EE5527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG2KCF58H8;
+				INFOPLIST_FILE = FlizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyjiang.FlizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fliz;
+			};
+			name = Debug;
+		};
+		4F60EB3921E1538100EE5527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG2KCF58H8;
+				INFOPLIST_FILE = FlizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyjiang.FlizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fliz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F60EB0221E1538000EE5527 /* Build configuration list for PBXProject "Fliz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F60EB2F21E1538100EE5527 /* Debug */,
+				4F60EB3021E1538100EE5527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F60EB3121E1538100EE5527 /* Build configuration list for PBXNativeTarget "Fliz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F60EB3221E1538100EE5527 /* Debug */,
+				4F60EB3321E1538100EE5527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F60EB3421E1538100EE5527 /* Build configuration list for PBXNativeTarget "FlizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F60EB3521E1538100EE5527 /* Debug */,
+				4F60EB3621E1538100EE5527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F60EB3721E1538100EE5527 /* Build configuration list for PBXNativeTarget "FlizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F60EB3821E1538100EE5527 /* Debug */,
+				4F60EB3921E1538100EE5527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F60EAFF21E1538000EE5527 /* Project object */;
+}
