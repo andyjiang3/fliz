@@ -1,0 +1,6 @@
+framework module Pods_Fliz {
+  umbrella header "Pods-Fliz-umbrella.h"
+
+  export *
+  module * { export * }
+}

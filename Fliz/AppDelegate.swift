@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        var initialViewController = sb.instantiateViewController(withIdentifier: "OnboardingViewController")
+        
+        if UserDefaults.standard.bool(forKey: "onboardingComplete") {
+            initialViewController = sb.instantiateViewController(withIdentifier: "TabBarViewController")
+        }
+        window?.rootViewController = initialViewController
+        window?.makeKeyAndVisible()
+        
         return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

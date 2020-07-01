@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F24244221E17AB9009EA4DF /* BorderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24244121E17AB9009EA4DF /* BorderExtension.swift */; };
+		4F28C306221F75A300E184D7 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F28C305221F75A300E184D7 /* LicenseViewController.swift */; };
+		4F28C308221F795900E184D7 /* BugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F28C307221F795900E184D7 /* BugViewController.swift */; };
 		4F60EB0B21E1538000EE5527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB0A21E1538000EE5527 /* AppDelegate.swift */; };
-		4F60EB0D21E1538000EE5527 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB0C21E1538000EE5527 /* FirstViewController.swift */; };
-		4F60EB0F21E1538000EE5527 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB0E21E1538000EE5527 /* SecondViewController.swift */; };
-		4F60EB1221E1538000EE5527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F60EB1021E1538000EE5527 /* Main.storyboard */; };
-		4F60EB1421E1538100EE5527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F60EB1321E1538100EE5527 /* Assets.xcassets */; };
-		4F60EB1721E1538100EE5527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F60EB1521E1538100EE5527 /* LaunchScreen.storyboard */; };
+		4F60EB0D21E1538000EE5527 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB0C21E1538000EE5527 /* HomeViewController.swift */; };
+		4F60EB0F21E1538000EE5527 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB0E21E1538000EE5527 /* ProfileViewController.swift */; };
 		4F60EB2221E1538100EE5527 /* FlizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB2121E1538100EE5527 /* FlizTests.swift */; };
 		4F60EB2D21E1538100EE5527 /* FlizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F60EB2C21E1538100EE5527 /* FlizUITests.swift */; };
+		4F8E53BC21ED56A800F3DB86 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E53BB21ED56A800F3DB86 /* ResultsViewController.swift */; };
+		4FB10F94221F5DC000CD6705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB10F93221F5DC000CD6705 /* Assets.xcassets */; };
+		4FB10F96221F5E6D00CD6705 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB10F95221F5E6D00CD6705 /* SettingsViewController.swift */; };
+		4FB10F98221F72D700CD6705 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB10F97221F72D700CD6705 /* TermsViewController.swift */; };
+		4FCA1A4021F2884200A0562D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FCA1A3F21F2884200A0562D /* Settings.bundle */; };
+		4FCF7DCE221F899700C5E133 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF7DCD221F899700C5E133 /* ContactViewController.swift */; };
+		4FCF7DD0221FB8C400C5E133 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF7DCF221FB8C400C5E133 /* LogInViewController.swift */; };
+		4FCF7DD5221FB8F000C5E133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FCF7DD1221FB8F000C5E133 /* Main.storyboard */; };
+		4FCF7DD6221FB8F000C5E133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FCF7DD3221FB8F000C5E133 /* LaunchScreen.storyboard */; };
+		4FCF7DD8221FB91D00C5E133 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF7DD7221FB91D00C5E133 /* SignUpViewController.swift */; };
+		4FCF7DDA221FB93200C5E133 /* PresentAndDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF7DD9221FB93200C5E133 /* PresentAndDismiss.swift */; };
+		4FCF7DDC221FB94300C5E133 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF7DDB221FB94300C5E133 /* OnboardingViewController.swift */; };
+		4FCF7DDE221FB95200C5E133 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF7DDD221FB95100C5E133 /* GameViewController.swift */; };
+		4FCF7DE4221FD10A00C5E133 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FCF7DE3221FD10A00C5E133 /* GoogleService-Info.plist */; };
+		4FCF7DEA221FD1FD00C5E133 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FCF7DE7221FD1F000C5E133 /* WorkSans-Bold.ttf */; };
+		4FCF7DEB221FD1FF00C5E133 /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FCF7DE8221FD1F300C5E133 /* WorkSans-Medium.ttf */; };
+		4FCF7DEC221FD20000C5E133 /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FCF7DE9221FD1F700C5E133 /* WorkSans-SemiBold.ttf */; };
+		4FF4431A21EAE99B00DCC540 /* Building_Typeface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4431821EAE84100DCC540 /* Building_Typeface.ttf */; };
+		4FF4431B21EAE99E00DCC540 /* adam.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4431921EAE92C00DCC540 /* adam.otf */; };
+		B2A854CFDC574543225679A4 /* Pods_FlizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9262369E42E79FF87F6746 /* Pods_FlizUITests.framework */; };
+		E66EFC8C65EBC607592F0AF7 /* Pods_FlizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BA926B5126FDC5BDFADF12 /* Pods_FlizTests.framework */; };
+		F8F8D7629BD577A7BA46A0D1 /* Pods_Fliz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E118B05C1949EDF0F725B12B /* Pods_Fliz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +57,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C2D36D3AA46D697CB71AA5E /* Pods-FlizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlizUITests/Pods-FlizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45BA926B5126FDC5BDFADF12 /* Pods_FlizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F24244121E17AB9009EA4DF /* BorderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderExtension.swift; sourceTree = "<group>"; };
+		4F28C305221F75A300E184D7 /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		4F28C307221F795900E184D7 /* BugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugViewController.swift; sourceTree = "<group>"; };
 		4F60EB0721E1538000EE5527 /* Fliz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fliz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F60EB0A21E1538000EE5527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F60EB0C21E1538000EE5527 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4F60EB0E21E1538000EE5527 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		4F60EB1121E1538000EE5527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F60EB1321E1538100EE5527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F60EB1621E1538100EE5527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F60EB0C21E1538000EE5527 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F60EB0E21E1538000EE5527 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4F60EB1821E1538100EE5527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F60EB1D21E1538100EE5527 /* FlizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F60EB2121E1538100EE5527 /* FlizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlizTests.swift; sourceTree = "<group>"; };
@@ -49,6 +73,32 @@
 		4F60EB2821E1538100EE5527 /* FlizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F60EB2C21E1538100EE5527 /* FlizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlizUITests.swift; sourceTree = "<group>"; };
 		4F60EB2E21E1538100EE5527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8E53BB21ED56A800F3DB86 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		4FB10F93221F5DC000CD6705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FB10F95221F5E6D00CD6705 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4FB10F97221F72D700CD6705 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		4FCA1A3F21F2884200A0562D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		4FCF7DCD221F899700C5E133 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		4FCF7DCF221FB8C400C5E133 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		4FCF7DD2221FB8F000C5E133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FCF7DD4221FB8F000C5E133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FCF7DD7221FB91D00C5E133 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4FCF7DD9221FB93200C5E133 /* PresentAndDismiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAndDismiss.swift; sourceTree = "<group>"; };
+		4FCF7DDB221FB94300C5E133 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		4FCF7DDD221FB95100C5E133 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4FCF7DE3221FD10A00C5E133 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FCF7DE7221FD1F000C5E133 /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		4FCF7DE8221FD1F300C5E133 /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		4FCF7DE9221FD1F700C5E133 /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		4FF4431821EAE84100DCC540 /* Building_Typeface.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Building_Typeface.ttf; sourceTree = "<group>"; };
+		4FF4431921EAE92C00DCC540 /* adam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = adam.otf; sourceTree = "<group>"; };
+		5A9262369E42E79FF87F6746 /* Pods_FlizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EE43E2913912297BD05521 /* Pods-FlizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlizTests/Pods-FlizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		919EFF2A710C4B39504B5647 /* Pods-Fliz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fliz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fliz/Pods-Fliz.release.xcconfig"; sourceTree = "<group>"; };
+		9F29921AC86A9FE0164108A8 /* Pods-FlizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlizUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlizUITests/Pods-FlizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A072C07B6990ACE8271CDA44 /* Pods-FlizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlizTests/Pods-FlizTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7A3E322DB2E67BBD30EAAB9 /* Pods-Fliz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fliz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fliz/Pods-Fliz.debug.xcconfig"; sourceTree = "<group>"; };
+		E118B05C1949EDF0F725B12B /* Pods_Fliz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fliz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F8D7629BD577A7BA46A0D1 /* Pods_Fliz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66EFC8C65EBC607592F0AF7 /* Pods_FlizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A854CFDC574543225679A4 /* Pods_FlizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +136,8 @@
 				4F60EB2021E1538100EE5527 /* FlizTests */,
 				4F60EB2B21E1538100EE5527 /* FlizUITests */,
 				4F60EB0821E1538000EE5527 /* Products */,
+				84D96D5FE23E3E5667E4120B /* Pods */,
+				77433DEEB1B0E7A1F87DCAB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +155,27 @@
 			isa = PBXGroup;
 			children = (
 				4F60EB0A21E1538000EE5527 /* AppDelegate.swift */,
-				4F60EB0C21E1538000EE5527 /* FirstViewController.swift */,
-				4F60EB0E21E1538000EE5527 /* SecondViewController.swift */,
-				4F60EB1021E1538000EE5527 /* Main.storyboard */,
-				4F60EB1321E1538100EE5527 /* Assets.xcassets */,
-				4F60EB1521E1538100EE5527 /* LaunchScreen.storyboard */,
+				4FCF7DDB221FB94300C5E133 /* OnboardingViewController.swift */,
+				4F60EB0C21E1538000EE5527 /* HomeViewController.swift */,
+				4F60EB0E21E1538000EE5527 /* ProfileViewController.swift */,
+				4FCF7DDD221FB95100C5E133 /* GameViewController.swift */,
+				4F8E53BB21ED56A800F3DB86 /* ResultsViewController.swift */,
+				4FB10F95221F5E6D00CD6705 /* SettingsViewController.swift */,
+				4FB10F97221F72D700CD6705 /* TermsViewController.swift */,
+				4F28C305221F75A300E184D7 /* LicenseViewController.swift */,
+				4F28C307221F795900E184D7 /* BugViewController.swift */,
+				4FCF7DCD221F899700C5E133 /* ContactViewController.swift */,
+				4FCF7DCF221FB8C400C5E133 /* LogInViewController.swift */,
+				4FCF7DD7221FB91D00C5E133 /* SignUpViewController.swift */,
+				4F24244121E17AB9009EA4DF /* BorderExtension.swift */,
+				4FCF7DD3221FB8F000C5E133 /* LaunchScreen.storyboard */,
+				4FCF7DD9221FB93200C5E133 /* PresentAndDismiss.swift */,
+				4FCF7DD1221FB8F000C5E133 /* Main.storyboard */,
 				4F60EB1821E1538100EE5527 /* Info.plist */,
+				4FCF7DE3221FD10A00C5E133 /* GoogleService-Info.plist */,
+				4FB10F93221F5DC000CD6705 /* Assets.xcassets */,
+				4F60EB5421E1689800EE5527 /* fonts */,
+				4FCA1A3F21F2884200A0562D /* Settings.bundle */,
 			);
 			path = Fliz;
 			sourceTree = "<group>";
@@ -128,6 +198,41 @@
 			path = FlizUITests;
 			sourceTree = "<group>";
 		};
+		4F60EB5421E1689800EE5527 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4FF4431921EAE92C00DCC540 /* adam.otf */,
+				4FF4431821EAE84100DCC540 /* Building_Typeface.ttf */,
+				4FCF7DE7221FD1F000C5E133 /* WorkSans-Bold.ttf */,
+				4FCF7DE8221FD1F300C5E133 /* WorkSans-Medium.ttf */,
+				4FCF7DE9221FD1F700C5E133 /* WorkSans-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		77433DEEB1B0E7A1F87DCAB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E118B05C1949EDF0F725B12B /* Pods_Fliz.framework */,
+				45BA926B5126FDC5BDFADF12 /* Pods_FlizTests.framework */,
+				5A9262369E42E79FF87F6746 /* Pods_FlizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D96D5FE23E3E5667E4120B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3E322DB2E67BBD30EAAB9 /* Pods-Fliz.debug.xcconfig */,
+				919EFF2A710C4B39504B5647 /* Pods-Fliz.release.xcconfig */,
+				75EE43E2913912297BD05521 /* Pods-FlizTests.debug.xcconfig */,
+				A072C07B6990ACE8271CDA44 /* Pods-FlizTests.release.xcconfig */,
+				9F29921AC86A9FE0164108A8 /* Pods-FlizUITests.debug.xcconfig */,
+				1C2D36D3AA46D697CB71AA5E /* Pods-FlizUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F60EB3121E1538100EE5527 /* Build configuration list for PBXNativeTarget "Fliz" */;
 			buildPhases = (
+				9D7D4B0D1D86313A19487F28 /* [CP] Check Pods Manifest.lock */,
 				4F60EB0321E1538000EE5527 /* Sources */,
 				4F60EB0421E1538000EE5527 /* Frameworks */,
 				4F60EB0521E1538000EE5527 /* Resources */,
+				1253D23AAAE5F11CB9C4B48B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F60EB3421E1538100EE5527 /* Build configuration list for PBXNativeTarget "FlizTests" */;
 			buildPhases = (
+				59BD81E863750F8F2936B400 /* [CP] Check Pods Manifest.lock */,
 				4F60EB1921E1538100EE5527 /* Sources */,
 				4F60EB1A21E1538100EE5527 /* Frameworks */,
 				4F60EB1B21E1538100EE5527 /* Resources */,
@@ -170,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F60EB3721E1538100EE5527 /* Build configuration list for PBXNativeTarget "FlizUITests" */;
 			buildPhases = (
+				9976A8066845D299F5F69FE4 /* [CP] Check Pods Manifest.lock */,
 				4F60EB2421E1538100EE5527 /* Sources */,
 				4F60EB2521E1538100EE5527 /* Frameworks */,
 				4F60EB2621E1538100EE5527 /* Resources */,
@@ -232,9 +341,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F60EB1721E1538100EE5527 /* LaunchScreen.storyboard in Resources */,
-				4F60EB1421E1538100EE5527 /* Assets.xcassets in Resources */,
-				4F60EB1221E1538000EE5527 /* Main.storyboard in Resources */,
+				4FCA1A4021F2884200A0562D /* Settings.bundle in Resources */,
+				4FCF7DD6221FB8F000C5E133 /* LaunchScreen.storyboard in Resources */,
+				4FB10F94221F5DC000CD6705 /* Assets.xcassets in Resources */,
+				4FCF7DEA221FD1FD00C5E133 /* WorkSans-Bold.ttf in Resources */,
+				4FF4431B21EAE99E00DCC540 /* adam.otf in Resources */,
+				4FCF7DEC221FD20000C5E133 /* WorkSans-SemiBold.ttf in Resources */,
+				4FCF7DE4221FD10A00C5E133 /* GoogleService-Info.plist in Resources */,
+				4FCF7DD5221FB8F000C5E133 /* Main.storyboard in Resources */,
+				4FCF7DEB221FD1FF00C5E133 /* WorkSans-Medium.ttf in Resources */,
+				4FF4431A21EAE99B00DCC540 /* Building_Typeface.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +370,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1253D23AAAE5F11CB9C4B48B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fliz/Pods-Fliz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EFCountingLabel/EFCountingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/QuickTableViewController/QuickTableViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFCountingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickTableViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fliz/Pods-Fliz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BD81E863750F8F2936B400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9976A8066845D299F5F69FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlizUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7D4B0D1D86313A19487F28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fliz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F60EB0321E1538000EE5527 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F60EB0F21E1538000EE5527 /* SecondViewController.swift in Sources */,
+				4F60EB0F21E1538000EE5527 /* ProfileViewController.swift in Sources */,
+				4F28C308221F795900E184D7 /* BugViewController.swift in Sources */,
+				4FCF7DDA221FB93200C5E133 /* PresentAndDismiss.swift in Sources */,
+				4FB10F96221F5E6D00CD6705 /* SettingsViewController.swift in Sources */,
 				4F60EB0B21E1538000EE5527 /* AppDelegate.swift in Sources */,
-				4F60EB0D21E1538000EE5527 /* FirstViewController.swift in Sources */,
+				4F8E53BC21ED56A800F3DB86 /* ResultsViewController.swift in Sources */,
+				4F24244221E17AB9009EA4DF /* BorderExtension.swift in Sources */,
+				4FCF7DDC221FB94300C5E133 /* OnboardingViewController.swift in Sources */,
+				4FCF7DD0221FB8C400C5E133 /* LogInViewController.swift in Sources */,
+				4FCF7DD8221FB91D00C5E133 /* SignUpViewController.swift in Sources */,
+				4FCF7DDE221FB95200C5E133 /* GameViewController.swift in Sources */,
+				4F28C306221F75A300E184D7 /* LicenseViewController.swift in Sources */,
+				4F60EB0D21E1538000EE5527 /* HomeViewController.swift in Sources */,
+				4FB10F98221F72D700CD6705 /* TermsViewController.swift in Sources */,
+				4FCF7DCE221F899700C5E133 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +528,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F60EB1021E1538000EE5527 /* Main.storyboard */ = {
+		4FCF7DD1221FB8F000C5E133 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F60EB1121E1538000EE5527 /* Base */,
+				4FCF7DD2221FB8F000C5E133 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4F60EB1521E1538100EE5527 /* LaunchScreen.storyboard */ = {
+		4FCF7DD3221FB8F000C5E133 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F60EB1621E1538100EE5527 /* Base */,
+				4FCF7DD4221FB8F000C5E133 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -434,11 +665,13 @@
 		};
 		4F60EB3221E1538100EE5527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A3E322DB2E67BBD30EAAB9 /* Pods-Fliz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PG2KCF58H8;
 				INFOPLIST_FILE = Fliz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,17 +679,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andyjiang.Fliz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4F60EB3321E1538100EE5527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919EFF2A710C4B39504B5647 /* Pods-Fliz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PG2KCF58H8;
 				INFOPLIST_FILE = Fliz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,12 +699,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andyjiang.Fliz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		4F60EB3521E1538100EE5527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EE43E2913912297BD05521 /* Pods-FlizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +727,7 @@
 		};
 		4F60EB3621E1538100EE5527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A072C07B6990ACE8271CDA44 /* Pods-FlizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +749,7 @@
 		};
 		4F60EB3821E1538100EE5527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F29921AC86A9FE0164108A8 /* Pods-FlizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +770,7 @@
 		};
 		4F60EB3921E1538100EE5527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2D36D3AA46D697CB71AA5E /* Pods-FlizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
